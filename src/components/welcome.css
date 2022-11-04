@@ -1,0 +1,27 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: boarder-box;
+  background-color: #8fa277;
+  
+   
+}
+.Welcome-page-container{
+    color: white;
+    text-align: center;
+    padding: 10%;
+    
+  }
+ .cactus{
+   height: 20vh;
+   width: 15vw; 
+   
+}
+button{
+    padding: 10px 20px;
+    background-color:white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition-delay: width 2s;
+}

@@ -1,5 +1,7 @@
+import welcome from './welcome.css'
+
 function Welcome (){
-    
+
 
     return(
         <div className="Welcome-page-container">
