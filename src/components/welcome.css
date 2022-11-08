@@ -25,3 +25,6 @@ button{
     font-family: Georgia, 'Times New Roman', Times, serif;
     transition-delay: width 2s;
 }
+.hide{
+  display: none;
+}

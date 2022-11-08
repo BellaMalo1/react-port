@@ -4,7 +4,7 @@ function Welcome (){
 
    function handleSubmit(event){
     event.preventDefault()
-    console.log('clicked')
+    document.body.classList.add('hide')
    }
 
 
