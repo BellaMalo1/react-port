@@ -7,7 +7,9 @@ import Home from './components/home'
 function App() {
   return (
     <div>
-      < Welcome />
+      {/* < Welcome /> */}
+      <Home />
+
       
       
     </div>
