@@ -1,6 +1,7 @@
 import { Routes, Route, Link } from 'react-router-dom'
 import Contact from './contactme'
 import Resume from './resume'
+import Work from './mywork'
 
 function Home (){
     return(
@@ -24,7 +25,7 @@ function Home (){
  <Route path='/home' />
  <Route path='/Resume'element={ < Resume/>} />
  <Route path="/Contact-Me" element={< Contact/>} />
- <Route path='/My-Work' />
+ <Route path='/My-Work' element={ < Work />}/>
 </Routes>
 </div>
     )
