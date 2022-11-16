@@ -1,4 +1,5 @@
 import { Routes, Route, Link } from 'react-router-dom'
+import Contact from './contactme'
 import Resume from './resume'
 
 function Home (){
@@ -22,7 +23,7 @@ function Home (){
 <Routes>
  <Route path='/home' />
  <Route path='/Resume'element={ < Resume/>} />
- <Route path="/Contact-Me" />
+ <Route path="/Contact-Me" element={< Contact/>} />
  <Route path='/My-Work' />
 </Routes>
 </div>
